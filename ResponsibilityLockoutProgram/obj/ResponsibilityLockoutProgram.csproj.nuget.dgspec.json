@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luker\\Documents\\CODING PROJECTS LOCAL\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj": {}
+    "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luker\\Documents\\CODING PROJECTS LOCAL\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj": {
+    "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luker\\Documents\\CODING PROJECTS LOCAL\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj",
+        "projectUniqueName": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj",
         "projectName": "ResponsibilityLockoutProgram",
-        "projectPath": "C:\\Users\\luker\\Documents\\CODING PROJECTS LOCAL\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj",
+        "projectPath": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj",
         "packagesPath": "C:\\Users\\luker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luker\\Documents\\CODING PROJECTS LOCAL\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram\\obj\\",
+        "outputPath": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luker\\AppData\\Roaming\\NuGet\\NuGet.Config",

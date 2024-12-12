@@ -41,6 +41,7 @@
             label_EasySettingsStatus = new Label();
             label_EasySettingsTitle = new Label();
             button_ResetUserSettings = new Button();
+            label_TestDisplay = new Label();
             panel_Time.SuspendLayout();
             panel_EasySettings.SuspendLayout();
             SuspendLayout();
@@ -61,7 +62,7 @@
             // 
             button_Settings.Cursor = Cursors.Hand;
             button_Settings.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
-            button_Settings.Location = new Point(114, 78);
+            button_Settings.Location = new Point(17, 78);
             button_Settings.Name = "button_Settings";
             button_Settings.Size = new Size(300, 60);
             button_Settings.TabIndex = 1;
@@ -194,11 +195,24 @@
             button_ResetUserSettings.UseVisualStyleBackColor = true;
             button_ResetUserSettings.Click += button_ResetUserSettings_Click;
             // 
+            // label_TestDisplay
+            // 
+            label_TestDisplay.AutoSize = true;
+            label_TestDisplay.Font = new Font("Courier New", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label_TestDisplay.ForeColor = SystemColors.ControlText;
+            label_TestDisplay.Location = new Point(110, 305);
+            label_TestDisplay.Name = "label_TestDisplay";
+            label_TestDisplay.Size = new Size(167, 36);
+            label_TestDisplay.TabIndex = 7;
+            label_TestDisplay.Text = "00:00:00";
+            label_TestDisplay.TextAlign = ContentAlignment.MiddleLeft;
+            // 
             // LockoutProgram_MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(483, 836);
+            ClientSize = new Size(384, 815);
+            Controls.Add(label_TestDisplay);
             Controls.Add(panel_EasySettings);
             Controls.Add(panel_Time);
             Controls.Add(button_ResetUserSettings);
@@ -206,18 +220,18 @@
             Controls.Add(button_Settings);
             Controls.Add(testButton);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            FormBorderStyle = FormBorderStyle.Fixed3D;
-            MaximizeBox = false;
-            MinimizeBox = false;
+            MinimumSize = new Size(346, 829);
             Name = "LockoutProgram_MainForm";
             Text = "Responsibility Lockout Program";
             FormClosing += LockoutProgram_MainForm_FormClosing;
             Load += Form1_Load;
+            Resize += LockoutProgram_MainForm_Resize;
             panel_Time.ResumeLayout(false);
             panel_Time.PerformLayout();
             panel_EasySettings.ResumeLayout(false);
             panel_EasySettings.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -235,5 +249,6 @@
         private TextBox textBox_EasySettingsInput;
         private Label label_EasySettingsStatus;
         private Button button_ResetUserSettings;
+        private Label label_TestDisplay;
     }
 }

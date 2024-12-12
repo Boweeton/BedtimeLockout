@@ -73,8 +73,10 @@
             // Calculate the remaining time
             remainingTime = TargetLockingTime - CurrentMoment();
 
-            if (remainingTime.TotalSeconds > 0)
+            if (remainingTime.TotalSeconds > 1)
             {
+                label_TestDisplay.Text = $"Sec Remain:\r\n{remainingTime.TotalSeconds:00.00}";
+
                 int displayHour = (TargetLockingTime.Hour) >= 13 ? (TargetLockingTime.Hour) - 12 : (TargetLockingTime.Hour); // Converts 24h time to 12h time
                 string displayHourSuffex = TargetLockingTime.Hour > 12 ? "PM" : "AM"; // Sets AM or PM based on if target time was converted or not
 
@@ -103,7 +105,7 @@
             }
             else
             {
-
+                SwitchToNight();
             }
 
 
@@ -307,7 +309,7 @@
 
         public void SwitchToNight()
         {
-            isLocked = true;
+            //isLocked = true;
             Lockout();
             TargetLockingTime = CurrentSettings.UnlockTime;
         }
@@ -434,14 +436,7 @@
             }
         }
 
-
-
-
-
-
-        // == 🔽 FORM EVENTS 🔽 ==================================================
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void RecenterWindowObjects()
         {
             CenterControlHorizontally(panel_Time, this);
             CenterControlHorizontally(button_Settings, this);
@@ -456,6 +451,17 @@
             CenterControlHorizontally(button_SetEasySettings, panel_EasySettings);
             CenterControlHorizontally(textBox_EasySettingsInput, panel_EasySettings);
             CenterControlHorizontally(label_EasySettingsStatus, panel_EasySettings);
+            CenterControlHorizontally(label_TestDisplay, this);
+        }
+
+
+
+
+        // == 🔽 FORM EVENTS 🔽 ==================================================
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            RecenterWindowObjects();
         }
 
         private void testButton_Click(object sender, EventArgs e)
@@ -527,7 +533,7 @@
                 CenterControlHorizontally(label_EasySettingsStatus, panel_EasySettings);
 
                 TimeOnly userInputTime = new TimeOnly(time.Hour, time.Minute, 0);
-                
+
                 CurrentSettings.LockoutTime = userInputTime;
                 TargetLockingTime = userInputTime;
 
@@ -562,6 +568,11 @@
         {
             ResetToDefaultSettings();
             TargetLockingTime = CurrentSettings.LockoutTime;
+        }
+
+        private void LockoutProgram_MainForm_Resize(object sender, EventArgs e)
+        {
+            RecenterWindowObjects();
         }
     }
 }
