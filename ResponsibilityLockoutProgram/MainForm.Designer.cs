@@ -48,6 +48,7 @@
             // 
             // testButton
             // 
+            testButton.BackColor = SystemColors.Window;
             testButton.Cursor = Cursors.Hand;
             testButton.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             testButton.Location = new Point(12, 12);
@@ -55,11 +56,12 @@
             testButton.Size = new Size(300, 60);
             testButton.TabIndex = 0;
             testButton.Text = "Test Lockout";
-            testButton.UseVisualStyleBackColor = true;
+            testButton.UseVisualStyleBackColor = false;
             testButton.Click += testButton_Click;
             // 
             // button_Settings
             // 
+            button_Settings.BackColor = SystemColors.Window;
             button_Settings.Cursor = Cursors.Hand;
             button_Settings.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             button_Settings.Location = new Point(17, 78);
@@ -67,7 +69,7 @@
             button_Settings.Size = new Size(300, 60);
             button_Settings.TabIndex = 1;
             button_Settings.Text = "Settings ⚙️";
-            button_Settings.UseVisualStyleBackColor = true;
+            button_Settings.UseVisualStyleBackColor = false;
             button_Settings.Click += button_Settings_Click;
             // 
             // label_CountdownTitle
@@ -80,7 +82,7 @@
             label_CountdownTitle.Size = new Size(153, 111);
             label_CountdownTitle.TabIndex = 3;
             label_CountdownTitle.Text = "Time Until\r\nLockout at\r\n--:--";
-            label_CountdownTitle.TextAlign = ContentAlignment.MiddleLeft;
+            label_CountdownTitle.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label_Countdown
             // 
@@ -96,6 +98,7 @@
             // 
             // button_ArmedStatus
             // 
+            button_ArmedStatus.BackColor = SystemColors.Window;
             button_ArmedStatus.Cursor = Cursors.Hand;
             button_ArmedStatus.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             button_ArmedStatus.Location = new Point(12, 144);
@@ -103,7 +106,7 @@
             button_ArmedStatus.Size = new Size(300, 60);
             button_ArmedStatus.TabIndex = 2;
             button_ArmedStatus.Text = "disarmed";
-            button_ArmedStatus.UseVisualStyleBackColor = true;
+            button_ArmedStatus.UseVisualStyleBackColor = false;
             button_ArmedStatus.Click += button_ArmedStatus_Click;
             // 
             // panel_Time
@@ -185,6 +188,7 @@
             // 
             // button_ResetUserSettings
             // 
+            button_ResetUserSettings.BackColor = SystemColors.Window;
             button_ResetUserSettings.Cursor = Cursors.Hand;
             button_ResetUserSettings.Font = new Font("Segoe UI", 24F, FontStyle.Bold);
             button_ResetUserSettings.Location = new Point(12, 210);
@@ -192,7 +196,7 @@
             button_ResetUserSettings.Size = new Size(300, 60);
             button_ResetUserSettings.TabIndex = 2;
             button_ResetUserSettings.Text = "Admin: Reset";
-            button_ResetUserSettings.UseVisualStyleBackColor = true;
+            button_ResetUserSettings.UseVisualStyleBackColor = false;
             button_ResetUserSettings.Click += button_ResetUserSettings_Click;
             // 
             // label_TestDisplay
@@ -200,17 +204,18 @@
             label_TestDisplay.AutoSize = true;
             label_TestDisplay.Font = new Font("Courier New", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label_TestDisplay.ForeColor = SystemColors.ControlText;
-            label_TestDisplay.Location = new Point(110, 305);
+            label_TestDisplay.Location = new Point(50, 292);
             label_TestDisplay.Name = "label_TestDisplay";
-            label_TestDisplay.Size = new Size(167, 36);
+            label_TestDisplay.Size = new Size(262, 72);
             label_TestDisplay.TabIndex = 7;
-            label_TestDisplay.Text = "00:00:00";
-            label_TestDisplay.TextAlign = ContentAlignment.MiddleLeft;
+            label_TestDisplay.Text = "Seconds Left:\r\n156685.32";
+            label_TestDisplay.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LockoutProgram_MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlLight;
             ClientSize = new Size(384, 815);
             Controls.Add(label_TestDisplay);
             Controls.Add(panel_EasySettings);

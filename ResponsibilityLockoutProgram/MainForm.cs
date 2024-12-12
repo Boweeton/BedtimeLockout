@@ -75,7 +75,7 @@
 
             if (remainingTime.TotalSeconds > 1)
             {
-                label_TestDisplay.Text = $"Sec Remain:\r\n{remainingTime.TotalSeconds:00.00}";
+                label_TestDisplay.Text = $"Seconds Left:\r\n{remainingTime.TotalSeconds:00.00}";
 
                 int displayHour = (TargetLockingTime.Hour) >= 13 ? (TargetLockingTime.Hour) - 12 : (TargetLockingTime.Hour); // Converts 24h time to 12h time
                 string displayHourSuffex = TargetLockingTime.Hour > 12 ? "PM" : "AM"; // Sets AM or PM based on if target time was converted or not
@@ -532,7 +532,7 @@
                 label_EasySettingsStatus.Text = $"Time format: GOOD\r\n{ConvertTimeTo12HourDisplay(time)}";
                 CenterControlHorizontally(label_EasySettingsStatus, panel_EasySettings);
 
-                TimeOnly userInputTime = new TimeOnly(time.Hour, time.Minute, 0);
+                TimeOnly userInputTime = new TimeOnly(time.Hour, time.Minute, time.Second);
 
                 CurrentSettings.LockoutTime = userInputTime;
                 TargetLockingTime = userInputTime;
