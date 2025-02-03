@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 
 namespace ResponsibilityLockoutProgram
 {
@@ -27,9 +28,18 @@ namespace ResponsibilityLockoutProgram
             int y = parentForm.Location.Y + (parentForm.Height - Height) / 2;
             Location = new Point(x, y);
 
-            CenterControlHorizontally(groupBox_DaySettings,this);
-            CenterControlHorizontally(button_SaveClose,this);
-            CenterControlHorizontally(button_CancelClose,this);
+            CenterControlHorizontally(groupBox_DaySettings, this);
+            CenterControlHorizontally(button_SaveClose, this);
+            CenterControlHorizontally(label_ComingSoon, groupBox_DaySettings);
+            CenterControlHorizontally(button_SaveEverydaySettings, groupBox_DaySettings);
+            CenterControlHorizontally(button_SaveMondaySettings, groupBox_DaySettings);
+            CenterControlHorizontally(button_SaveTuesdaySettings, groupBox_DaySettings);
+            CenterControlHorizontally(button_SaveWednesdaySettings, groupBox_DaySettings);
+            CenterControlHorizontally(button_SaveThursdaySettings, groupBox_DaySettings);
+            CenterControlHorizontally(button_SaveFridaySettings, groupBox_DaySettings);
+            CenterControlHorizontally(button_SaveSaturdaySettings, groupBox_DaySettings);
+            CenterControlHorizontally(button_SaveSundaySettings, groupBox_DaySettings);
+
 
         }
 
@@ -46,6 +56,21 @@ namespace ResponsibilityLockoutProgram
                 // Set the control's Left property to horizontally center it within the parent control
                 controlToCenter.Left = (parentWidth - controlWidth) / 2;
             }
+        }
+
+        private void SaveSettings()
+        {
+            TimeOnly newLockoutTime = parentForm.GetTimeFromString($"{textBox_LockoutHour.Text}:{textBox_LockoutMinute.Text} {textBox_LockoutTimeCode.Text}");
+            TimeOnly newUnlockTime = parentForm.GetTimeFromString($"{textBox_UnlockHour.Text}:{textBox_UnlockMinute.Text} {textBox_UnlockTimeCode.Text}");
+
+            TimeOnly userLockoutInputTime = new TimeOnly(newLockoutTime.Hour, newLockoutTime.Minute, newLockoutTime.Second);
+            TimeOnly userUnlockInputTime = new TimeOnly(newUnlockTime.Hour, newUnlockTime.Minute, newUnlockTime.Second);
+
+            parentForm.CurrentSettings.LockoutTime = userLockoutInputTime;
+            parentForm.CurrentSettings.UnlockTime = userUnlockInputTime;
+            parentForm.TargetLockingTime = userLockoutInputTime;
+
+            parentForm.SaveSettings(parentForm.CurrentSettings);
         }
 
 
@@ -65,7 +90,18 @@ namespace ResponsibilityLockoutProgram
 
         private void textBox3_Click(object sender, EventArgs e)
         {
-            textBox3.Text = textBox3.Text=="AM" ? "PM" : "AM";
+            textBox_LockoutTimeCode.Text = textBox_LockoutTimeCode.Text == "AM" ? "PM" : "AM";
+        }
+
+        private void groupBox_DaySettings_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_SaveEverydaySettings_Click(object sender, EventArgs e)
+        {
+            SaveSettings();
+            Close();
         }
     }
 }

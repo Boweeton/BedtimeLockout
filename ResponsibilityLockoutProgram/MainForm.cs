@@ -75,7 +75,7 @@
 
             if (remainingTime.TotalSeconds > 1)
             {
-                label_TestDisplay.Text = $"Seconds Left:\r\n{remainingTime.TotalSeconds:00.00}";
+                //label_TestDisplay.Text = $"Seconds Left:\r\n{remainingTime.TotalSeconds:00.00}";
 
                 int displayHour = (TargetLockingTime.Hour) >= 13 ? (TargetLockingTime.Hour) - 12 : (TargetLockingTime.Hour); // Converts 24h time to 12h time
                 string displayHourSuffex = TargetLockingTime.Hour > 12 ? "PM" : "AM"; // Sets AM or PM based on if target time was converted or not
@@ -451,7 +451,6 @@
             CenterControlHorizontally(button_SetEasySettings, panel_EasySettings);
             CenterControlHorizontally(textBox_EasySettingsInput, panel_EasySettings);
             CenterControlHorizontally(label_EasySettingsStatus, panel_EasySettings);
-            CenterControlHorizontally(label_TestDisplay, this);
         }
 
 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LockoutProgram_MainForm));
             testButton = new Button();
             button_Settings = new Button();
             label_CountdownTitle = new Label();
@@ -37,11 +38,11 @@
             label_CountdownLegend = new Label();
             panel_EasySettings = new Panel();
             button_SetEasySettings = new Button();
+            label1 = new Label();
             textBox_EasySettingsInput = new TextBox();
             label_EasySettingsStatus = new Label();
             label_EasySettingsTitle = new Label();
             button_ResetUserSettings = new Button();
-            label_TestDisplay = new Label();
             panel_Time.SuspendLayout();
             panel_EasySettings.SuspendLayout();
             SuspendLayout();
@@ -115,7 +116,7 @@
             panel_Time.Controls.Add(label_CountdownLegend);
             panel_Time.Controls.Add(label_Countdown);
             panel_Time.Controls.Add(label_CountdownTitle);
-            panel_Time.Location = new Point(3, 379);
+            panel_Time.Location = new Point(73, 276);
             panel_Time.Name = "panel_Time";
             panel_Time.Size = new Size(193, 215);
             panel_Time.TabIndex = 5;
@@ -136,17 +137,19 @@
             // 
             panel_EasySettings.BackColor = SystemColors.Window;
             panel_EasySettings.Controls.Add(button_SetEasySettings);
+            panel_EasySettings.Controls.Add(label1);
             panel_EasySettings.Controls.Add(textBox_EasySettingsInput);
             panel_EasySettings.Controls.Add(label_EasySettingsStatus);
             panel_EasySettings.Controls.Add(label_EasySettingsTitle);
-            panel_EasySettings.Location = new Point(30, 600);
+            panel_EasySettings.Enabled = false;
+            panel_EasySettings.Location = new Point(54, 523);
             panel_EasySettings.Name = "panel_EasySettings";
             panel_EasySettings.Size = new Size(247, 170);
             panel_EasySettings.TabIndex = 6;
             // 
             // button_SetEasySettings
             // 
-            button_SetEasySettings.Location = new Point(122, 64);
+            button_SetEasySettings.Location = new Point(71, 106);
             button_SetEasySettings.Name = "button_SetEasySettings";
             button_SetEasySettings.Size = new Size(75, 23);
             button_SetEasySettings.TabIndex = 5;
@@ -154,9 +157,21 @@
             button_SetEasySettings.UseVisualStyleBackColor = true;
             button_SetEasySettings.Click += button_SetEasySettings_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Courier New", 15F, FontStyle.Bold);
+            label1.ForeColor = SystemColors.ControlText;
+            label1.Location = new Point(8, 10);
+            label1.Name = "label1";
+            label1.Size = new Size(154, 23);
+            label1.TabIndex = 3;
+            label1.Text = "leaving soon";
+            label1.TextAlign = ContentAlignment.MiddleLeft;
+            // 
             // textBox_EasySettingsInput
             // 
-            textBox_EasySettingsInput.Location = new Point(84, 35);
+            textBox_EasySettingsInput.Location = new Point(62, 77);
             textBox_EasySettingsInput.Name = "textBox_EasySettingsInput";
             textBox_EasySettingsInput.Size = new Size(100, 23);
             textBox_EasySettingsInput.TabIndex = 4;
@@ -167,7 +182,7 @@
             label_EasySettingsStatus.AutoSize = true;
             label_EasySettingsStatus.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label_EasySettingsStatus.ForeColor = SystemColors.ControlText;
-            label_EasySettingsStatus.Location = new Point(25, 93);
+            label_EasySettingsStatus.Location = new Point(84, 135);
             label_EasySettingsStatus.Name = "label_EasySettingsStatus";
             label_EasySettingsStatus.Size = new Size(63, 25);
             label_EasySettingsStatus.TabIndex = 3;
@@ -179,7 +194,7 @@
             label_EasySettingsTitle.AutoSize = true;
             label_EasySettingsTitle.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label_EasySettingsTitle.ForeColor = SystemColors.ControlText;
-            label_EasySettingsTitle.Location = new Point(25, 7);
+            label_EasySettingsTitle.Location = new Point(38, 49);
             label_EasySettingsTitle.Name = "label_EasySettingsTitle";
             label_EasySettingsTitle.Size = new Size(159, 25);
             label_EasySettingsTitle.TabIndex = 3;
@@ -199,25 +214,12 @@
             button_ResetUserSettings.UseVisualStyleBackColor = false;
             button_ResetUserSettings.Click += button_ResetUserSettings_Click;
             // 
-            // label_TestDisplay
-            // 
-            label_TestDisplay.AutoSize = true;
-            label_TestDisplay.Font = new Font("Courier New", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label_TestDisplay.ForeColor = SystemColors.ControlText;
-            label_TestDisplay.Location = new Point(50, 292);
-            label_TestDisplay.Name = "label_TestDisplay";
-            label_TestDisplay.Size = new Size(262, 72);
-            label_TestDisplay.TabIndex = 7;
-            label_TestDisplay.Text = "Seconds Left:\r\n156685.32";
-            label_TestDisplay.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // LockoutProgram_MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
             ClientSize = new Size(384, 815);
-            Controls.Add(label_TestDisplay);
             Controls.Add(panel_EasySettings);
             Controls.Add(panel_Time);
             Controls.Add(button_ResetUserSettings);
@@ -225,6 +227,9 @@
             Controls.Add(button_Settings);
             Controls.Add(testButton);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MinimizeBox = false;
             MinimumSize = new Size(346, 829);
             Name = "LockoutProgram_MainForm";
             Text = "Responsibility Lockout Program";
@@ -236,7 +241,6 @@
             panel_EasySettings.ResumeLayout(false);
             panel_EasySettings.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -254,6 +258,6 @@
         private TextBox textBox_EasySettingsInput;
         private Label label_EasySettingsStatus;
         private Button button_ResetUserSettings;
-        private Label label_TestDisplay;
+        private Label label1;
     }
 }
