@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResponsibilityLockoutProgram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bfbd877f44ee4d68c0f3d0220e85850030e306c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cb790a6ff0550356a2088281f1a85ad3fe2d4e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResponsibilityLockoutProgram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResponsibilityLockoutProgram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

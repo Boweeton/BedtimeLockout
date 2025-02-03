@@ -228,7 +228,6 @@
             Controls.Add(testButton);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            MaximizeBox = false;
             MinimizeBox = false;
             MinimumSize = new Size(346, 829);
             Name = "LockoutProgram_MainForm";
