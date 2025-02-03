@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|c:\\users\\luker\\documents\\github repos\\bedtimelockout\\responsibilitylockoutprogram\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\responsibilitylockoutprogram\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|c:\\users\\luker\\documents\\github repos\\bedtimelockout\\responsibilitylockoutprogram\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|c:\\users\\luker\\documents\\github repos\\bedtimelockout\\responsibilitylockoutprogram\\lockoutscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\lockoutscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\responsibilitylockoutprogram\\lockoutscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\lockoutscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|c:\\users\\luker\\documents\\github repos\\bedtimelockout\\responsibilitylockoutprogram\\usermessageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\usermessageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\responsibilitylockoutprogram\\usermessageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\usermessageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\responsibilitylockoutprogram\\lockoutscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\lockoutscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|c:\\users\\luker\\documents\\github repos\\bedtimelockout\\responsibilitylockoutprogram\\lockoutscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\lockoutscreenform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\responsibilitylockoutprogram\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|c:\\users\\luker\\documents\\github repos\\bedtimelockout\\responsibilitylockoutprogram\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|c:\\users\\luker\\documents\\github repos\\bedtimelockout\\responsibilitylockoutprogram\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|solutionrelative:responsibilitylockoutprogram\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DF9BD28-D5E1-4C8D-B740-2AD7E9157C66}|ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram.csproj|C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\responsibilitylockoutprogram\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "UserMessageForm.cs",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\UserMessageForm.cs",
               "RelativeDocumentMoniker": "ResponsibilityLockoutProgram\\UserMessageForm.cs",
               "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\UserMessageForm.cs",
               "RelativeToolTip": "ResponsibilityLockoutProgram\\UserMessageForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T17:15:12.978Z",
               "IsPinned": true,
@@ -64,12 +64,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "UserMessageForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\UserMessageForm.cs",
               "RelativeDocumentMoniker": "ResponsibilityLockoutProgram\\UserMessageForm.cs",
-              "ToolTip": "C:\\Users\\luker\\Documents\\CODING PROJECTS LOCAL\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram\\UserMessageForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\CODING PROJECTS LOCAL\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram\\UserMessageForm.cs [Design]",
+              "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\UserMessageForm.cs [Design]",
+              "RelativeToolTip": "ResponsibilityLockoutProgram\\UserMessageForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T17:14:23.769Z",
               "IsPinned": true
@@ -102,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\MainForm.cs",
               "RelativeDocumentMoniker": "ResponsibilityLockoutProgram\\MainForm.cs",
               "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\MainForm.cs",
               "RelativeToolTip": "ResponsibilityLockoutProgram\\MainForm.cs",
-              "ViewState": "AgIAAH4BAAAAAAAAAAAuwKQBAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAuwJ8BAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T02:19:36.754Z",
               "IsPinned": true,
@@ -116,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\MainForm.cs",
               "RelativeDocumentMoniker": "ResponsibilityLockoutProgram\\MainForm.cs",
@@ -124,8 +124,7 @@
               "RelativeToolTip": "ResponsibilityLockoutProgram\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T02:01:30.591Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -143,12 +142,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "LockoutScreenForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\LockoutScreenForm.cs",
               "RelativeDocumentMoniker": "ResponsibilityLockoutProgram\\LockoutScreenForm.cs",
-              "ToolTip": "C:\\Users\\luker\\Documents\\CODING PROJECTS LOCAL\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram\\LockoutScreenForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\CODING PROJECTS LOCAL\\ResponsibilityLockoutProgram\\ResponsibilityLockoutProgram\\LockoutScreenForm.cs [Design]",
+              "ToolTip": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\LockoutScreenForm.cs [Design]",
+              "RelativeToolTip": "ResponsibilityLockoutProgram\\LockoutScreenForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T12:57:33.058Z",
               "IsPinned": true
@@ -159,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "UserSettings.cs",
               "DocumentMoniker": "C:\\Users\\luker\\Documents\\GitHub Repos\\BedtimeLockout\\ResponsibilityLockoutProgram\\UserSettings.cs",
               "RelativeDocumentMoniker": "ResponsibilityLockoutProgram\\UserSettings.cs",
@@ -167,8 +166,7 @@
               "RelativeToolTip": "ResponsibilityLockoutProgram\\UserSettings.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAcwCAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T22:39:26.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T22:39:26.142Z"
             }
           ]
         }
